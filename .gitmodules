@@ -1,3 +1,6 @@
 [submodule "backend"]
 	path = backend
 	url = git@gitlab.au.dk:data-visualization-group-13/backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@gitlab.au.dk:data-visualization-group-13/frontend.git
