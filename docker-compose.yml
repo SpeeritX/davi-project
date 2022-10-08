@@ -13,12 +13,11 @@ services:
   davi-frontend:
     container_name: davi-frontend
     build:
-      context: ./frontend
+      context: ./frontend/
       dockerfile: Dockerfile-dev
     ports:
       - "8080:8080"
     volumes:
-       - ./frontend:/app
-       - /app/node_modules
-    environment: 
+      - ./frontend:/app
+    environment:
       - CHOKIDAR_USEPOLLING=true
