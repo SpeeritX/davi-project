@@ -1,11 +1,11 @@
 [submodule "backend"]
 	path = backend
-	url = git@gitlab.au.dk:data-visualization-group-13/backend.git
+	url = ../backend.git
 	branch = .
 	update = rebase
 
 [submodule "frontend"]
 	path = frontend
-	url = git@gitlab.au.dk:data-visualization-group-13/frontend.git
+	url = ../frontend.git
 	branch = .
 	update = rebase
