@@ -1,11 +1,11 @@
 [submodule "backend"]
 	path = backend
-	url = ../backend.git
+	url = ../davi-backend.git
 	branch = .
 	update = rebase
 
 [submodule "frontend"]
 	path = frontend
-	url = ../frontend.git
+	url = ../davi-frontend.git
 	branch = .
 	update = rebase
